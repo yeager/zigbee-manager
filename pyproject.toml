@@ -1,0 +1,11 @@
+[project]
+name = "zigbee-manager"
+version = "0.1.0"
+description = "Zigbee device management via Zigbee2MQTT"
+license = "GPL-3.0-or-later"
+requires-python = ">=3.10"
+dependencies = ["PyGObject>=3.42", "requests>=2.28"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.backends._legacy:_Backend"

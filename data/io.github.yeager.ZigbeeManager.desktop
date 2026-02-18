@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Zigbee Manager
+Comment=Zigbee device management via Zigbee2MQTT
+Exec=zigbee-manager
+Icon=io.github.yeager.ZigbeeManager
+Terminal=false
+Type=Application
+Categories=Network;Settings;
