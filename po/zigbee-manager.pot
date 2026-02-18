@@ -1,0 +1,130 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-18 10:19+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/zigbee_manager/main.py:68
+msgid "Zigbee Manager"
+msgstr ""
+
+#: src/zigbee_manager/main.py:81
+msgid "Refresh"
+msgstr ""
+
+#: src/zigbee_manager/main.py:88
+msgid "Z2M URL:"
+msgstr ""
+
+#: src/zigbee_manager/main.py:91
+msgid "Connect"
+msgstr ""
+
+#: src/zigbee_manager/main.py:106
+msgid "Search devices..."
+msgstr ""
+
+#: src/zigbee_manager/main.py:126
+msgid "Select a device"
+msgstr ""
+
+#: src/zigbee_manager/main.py:130
+msgid "Device Info"
+msgstr ""
+
+#: src/zigbee_manager/main.py:138
+msgid "New name..."
+msgstr ""
+
+#: src/zigbee_manager/main.py:140
+msgid "Rename"
+msgstr ""
+
+#: src/zigbee_manager/main.py:146
+msgid "Check OTA Update"
+msgstr ""
+
+#: src/zigbee_manager/main.py:149
+msgid "Remove Device"
+msgstr ""
+
+#: src/zigbee_manager/main.py:152
+msgid "Permit Join (60s)"
+msgstr ""
+
+#: src/zigbee_manager/main.py:158
+msgid "Network Mesh (Tree View)"
+msgstr ""
+
+#: src/zigbee_manager/main.py:162
+msgid "Device"
+msgstr ""
+
+#: src/zigbee_manager/main.py:162 src/zigbee_manager/main.py:271
+msgid "Type"
+msgstr ""
+
+#: src/zigbee_manager/main.py:162 src/zigbee_manager/main.py:270
+msgid "IEEE Address"
+msgstr ""
+
+#: src/zigbee_manager/main.py:193
+msgid "requests not installed!"
+msgstr ""
+
+#: src/zigbee_manager/main.py:205
+msgid "Fetching..."
+msgstr ""
+
+#: src/zigbee_manager/main.py:272
+msgid "Model"
+msgstr ""
+
+#: src/zigbee_manager/main.py:273
+msgid "Vendor"
+msgstr ""
+
+#: src/zigbee_manager/main.py:274
+msgid "Power Source"
+msgstr ""
+
+#: src/zigbee_manager/main.py:275
+msgid "Software Build"
+msgstr ""
+
+#: src/zigbee_manager/main.py:276
+msgid "Date Code"
+msgstr ""
+
+#: src/zigbee_manager/main.py:277
+msgid "Interview Completed"
+msgstr ""
+
+#: src/zigbee_manager/main.py:334
+msgid "Permit join enabled (60s)"
+msgstr ""
+
+#: src/zigbee_manager/main.py:362
+msgid "translator-credits"
+msgstr ""
+
+#: src/zigbee_manager/main.py:363
+msgid "Zigbee device management via Zigbee2MQTT"
+msgstr ""
+
+#: src/zigbee_manager/main.py:365
+msgid "Translations"
+msgstr ""
