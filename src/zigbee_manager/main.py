@@ -363,7 +363,7 @@ class ZigbeeManagerWindow(Adw.ApplicationWindow):
             comments=_("Zigbee device management via Zigbee2MQTT"),
         )
         about.add_link(_("Translations"), "https://www.transifex.com/danielnylander/zigbee-manager")
-        about.present()
+        about.present(self)
 
 
 class ZigbeeManagerApp(Adw.Application):
