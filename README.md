@@ -1,25 +1,25 @@
 # Zigbee Manager
 
-Zigbee device management via Zigbee2MQTT REST API, built with GTK4/Adwaita.
+Zigbee device manager for smart home networks.
 
-## Features
-- View all Zigbee devices with details
-- Rename devices
-- OTA firmware update checks
-- Remove devices
-- Permit join control
-- Mesh network tree visualization
-- Device info (model, vendor, firmware, IEEE address)
+Built with GTK4/Adwaita. Part of the [Danne L10n Suite](https://github.com/yeager/debian-repo).
 
-## Dependencies
+## Installation
+
+### Debian/Ubuntu
 ```bash
-pip install requests paho-mqtt
+sudo apt install zigbee-manager
 ```
 
-## Run
+### Fedora/RPM
 ```bash
-PYTHONPATH=src python3 -c "from zigbee_manager.main import main; main()"
+sudo dnf install zigbee-manager
 ```
 
 ## License
-GPL-3.0-or-later
+
+GPL-3.0
+
+## Author
+
+Daniel Nylander — [danielnylander.se](https://danielnylander.se)
