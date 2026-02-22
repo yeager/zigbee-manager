@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-18 10:19+0100\n"
+"POT-Creation-Date: 2026-02-22 06:25+0100\n"
 "PO-Revision-Date: 2026-02-18 09:21+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>, 2026\n"
 "Language-Team: Swedish (https://app.transifex.com/danielnylander/teams/304969/sv/)\n"
@@ -21,114 +21,140 @@ msgstr ""
 "Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: src/zigbee_manager/main.py:68
+#: src/zigbee_manager/main.py:89
 msgid "Zigbee Manager"
 msgstr "Hantera Zigbee"
 
-#: src/zigbee_manager/main.py:81
+#: src/zigbee_manager/main.py:102
 msgid "Refresh"
 msgstr "Uppdatera"
 
-#: src/zigbee_manager/main.py:88
+#: src/zigbee_manager/main.py:109
 msgid "Z2M URL:"
 msgstr "URL för Z2M:"
 
-#: src/zigbee_manager/main.py:91
+#: src/zigbee_manager/main.py:112
 msgid "Connect"
 msgstr "Anslut"
 
-#: src/zigbee_manager/main.py:106
+#: src/zigbee_manager/main.py:127
 msgid "Search devices..."
 msgstr "Sök efter enheter..."
 
-#: src/zigbee_manager/main.py:126
+#: src/zigbee_manager/main.py:147
 msgid "Select a device"
 msgstr "Välj en enhet"
 
-#: src/zigbee_manager/main.py:130
+#: src/zigbee_manager/main.py:151
 msgid "Device Info"
 msgstr "Enhetsinformation"
 
-#: src/zigbee_manager/main.py:138
+#: src/zigbee_manager/main.py:159
 msgid "New name..."
 msgstr "Nytt namn..."
 
-#: src/zigbee_manager/main.py:140
+#: src/zigbee_manager/main.py:161
 msgid "Rename"
 msgstr "Byt namn"
 
-#: src/zigbee_manager/main.py:146
+#: src/zigbee_manager/main.py:167
 msgid "Check OTA Update"
 msgstr "Kontrollera OTA-uppdatering"
 
-#: src/zigbee_manager/main.py:149
+#: src/zigbee_manager/main.py:170
 msgid "Remove Device"
 msgstr "Ta bort enhet"
 
-#: src/zigbee_manager/main.py:152
+#: src/zigbee_manager/main.py:173
 msgid "Permit Join (60s)"
 msgstr "Tillåt gå med (60s)"
 
-#: src/zigbee_manager/main.py:158
+#: src/zigbee_manager/main.py:179
 msgid "Network Mesh (Tree View)"
 msgstr "Nätverksmesh (trädvy)"
 
-#: src/zigbee_manager/main.py:162
+#: src/zigbee_manager/main.py:183
 msgid "Device"
 msgstr "Enhet"
 
-#: src/zigbee_manager/main.py:162 src/zigbee_manager/main.py:271
+#: src/zigbee_manager/main.py:183 src/zigbee_manager/main.py:292
 msgid "Type"
 msgstr "Typ"
 
-#: src/zigbee_manager/main.py:162 src/zigbee_manager/main.py:270
+#: src/zigbee_manager/main.py:183 src/zigbee_manager/main.py:291
 msgid "IEEE Address"
 msgstr "IEEE-adress"
 
-#: src/zigbee_manager/main.py:193
+#: src/zigbee_manager/main.py:214
 msgid "requests not installed!"
 msgstr "requests inte installerad!"
 
-#: src/zigbee_manager/main.py:205
+#: src/zigbee_manager/main.py:226
 msgid "Fetching..."
 msgstr "Hämtar..."
 
-#: src/zigbee_manager/main.py:272
+#: src/zigbee_manager/main.py:293
 msgid "Model"
 msgstr "Modell"
 
-#: src/zigbee_manager/main.py:273
+#: src/zigbee_manager/main.py:294
 msgid "Vendor"
 msgstr "Tillverkare"
 
-#: src/zigbee_manager/main.py:274
+#: src/zigbee_manager/main.py:295
 msgid "Power Source"
 msgstr "Strömkälla"
 
-#: src/zigbee_manager/main.py:275
+#: src/zigbee_manager/main.py:296
 msgid "Software Build"
 msgstr "Programvaruversion"
 
-#: src/zigbee_manager/main.py:276
+#: src/zigbee_manager/main.py:297
 msgid "Date Code"
 msgstr "Datumkod"
 
-#: src/zigbee_manager/main.py:277
+#: src/zigbee_manager/main.py:298
 msgid "Interview Completed"
 msgstr "Intervju klar"
 
-#: src/zigbee_manager/main.py:334
+#: src/zigbee_manager/main.py:355
 msgid "Permit join enabled (60s)"
 msgstr "Tillåt gå med aktiverat (60s)"
 
-#: src/zigbee_manager/main.py:362
+#: src/zigbee_manager/main.py:383
 msgid "translator-credits"
 msgstr "Daniel Nylander <po@danielnylander.se>, 2026."
 
-#: src/zigbee_manager/main.py:363
+#: src/zigbee_manager/main.py:384
 msgid "Zigbee device management via Zigbee2MQTT"
 msgstr "Hantering av Zigbee-enheter via Zigbee2MQTT"
 
-#: src/zigbee_manager/main.py:365
+#: src/zigbee_manager/main.py:386
 msgid "Translations"
 msgstr "Översättningar"
+
+#: src/zigbee_manager/main.py:421
+msgid "Welcome"
+msgstr "Välkommen"
+
+#: src/zigbee_manager/main.py:426
+msgid "Welcome to Zigbee Manager"
+msgstr "Välkommen till Zigbee-hanterare"
+
+#: src/zigbee_manager/main.py:427
+msgid ""
+"Manage Zigbee smart home devices.\n"
+"\n"
+"✓ Discover and pair devices\n"
+"✓ View device status\n"
+"✓ Network topology"
+msgstr ""
+"Hantera smarta hem-enheter med Zigbee.\n"
+"\n"
+"✓ Upptäck och para ihop enheter\n"
+"✓ Visa enhetsstatus\n"
+"✓ Nätverkstopologi"
+
+#: src/zigbee_manager/main.py:428
+msgid "Get Started"
+msgstr "Kom igång"
