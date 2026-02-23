@@ -371,9 +371,8 @@ class ZigbeeManagerWindow(Adw.ApplicationWindow):
             mgr.set_color_scheme(Adw.ColorScheme.FORCE_DARK)
 
     def _show_about(self, _btn):
-        about = Adw.AboutWindow(
-            transient_for=self,
-            application_name="Zigbee Manager",
+        about = Adw.AboutDialog(
+            application_name=_("Zigbee Manager"),
             application_icon="network-wireless-symbolic",
             version="0.1.0",
             developer_name="Daniel Nylander",
@@ -382,9 +381,8 @@ class ZigbeeManagerWindow(Adw.ApplicationWindow):
             website="https://github.com/yeager/zigbee-manager",
             issue_url="https://github.com/yeager/zigbee-manager/issues",
             translator_credits=_("translator-credits"),
-            comments=_("Zigbee device management via Zigbee2MQTT"),
+            comments=_("Zigbee device management via Zigbee2MQTT")
         )
-        about.add_link(_("Translations"), "https://www.transifex.com/danielnylander/zigbee-manager")
         about.present(self)
 
 
