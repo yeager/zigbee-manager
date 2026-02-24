@@ -5,4 +5,5 @@ Exec=zigbee-manager
 Icon=io.github.yeager.ZigbeeManager
 Terminal=false
 Type=Application
+StartupWMClass=io.github.yeager.ZigbeeManager
 Categories=Network;Settings;
