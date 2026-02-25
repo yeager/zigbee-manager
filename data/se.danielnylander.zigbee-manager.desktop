@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Zigbee Manager
+Name[sv]=Zigbee-hanterare
+Comment=Zigbee device manager
+Comment[sv]=Hanterare för Zigbee-enheter
+Exec=zigbee-manager
+Icon=zigbee-manager
+Categories=Network;GTK;
+Terminal=false
+StartupNotify=true
+StartupWMClass=se.danielnylander.zigbee-manager
